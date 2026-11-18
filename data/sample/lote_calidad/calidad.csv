@@ -1,0 +1,8 @@
+plataforma,video_id,fecha_medicion,version_origen,reproducciones,me_gusta,comentarios,compartidos
+tiktok,V001,2026-11-01,1,,1,1,1
+tiktok,V001,2026-11-01,1,muchas,1,1,1
+tiktok,V001,2026-11-01,1,-10,1,1,1
+tiktok,,2026-11-01,1,10,1,1,1
+tiktok,V999,2026-11-01,1,10,1,1,1
+tiktok,V000,2026-11-01,1,1000,50,14,11
+tiktok,V000,2026-11-01,1,1000,50,14,11

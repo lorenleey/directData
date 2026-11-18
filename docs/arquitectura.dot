@@ -1,0 +1,14 @@
+digraph {
+ graph [rankdir=TB, bgcolor="white", pad=0.3];
+ node [shape=box, style="rounded,filled", fillcolor="#EDF6F5", fontname="DejaVu Sans", fontsize=13];
+ edge [color="#227E82"];
+ a[label="CSV sintéticos por lote"];
+ b[label="Bronze\nAuto Loader y trazabilidad"];
+ c[label="Silver\nTipos, categorías y versiones"];
+ r[label="Rechazos\nOriginal y motivo",fillcolor="#F6EAF0"];
+ d[label="Delta Lake\nMERGE por clave y versión"];
+ g[label="Gold\nVídeo · Categoría · Plataforma"];
+ p[label="Panel\nEvolución y comparación a edad 3"];
+ a -> b -> c -> d -> g -> p;
+ c -> r;
+}

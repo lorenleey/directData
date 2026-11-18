@@ -1,0 +1,10 @@
+digraph {
+ graph [rankdir=TB,bgcolor="white",pad=0.3];
+ node [shape=box,style="rounded,filled",fillcolor="#EDF6F5",fontname="DejaVu Sans",fontsize=13];
+ edge [color="#227E82"];
+ v[label="Validar cabeceras"]; b[label="Bronze"]; s[label="Silver"]; c[label="Comprobar"]; g[label="Publicar Gold"];
+ f[shape=ellipse,fillcolor="#F6EAF0",label="Fallo en historial\nDependientes sin ejecutar"];
+ v -> b -> s -> c -> g;
+ v -> f[label="Cabecera inválida"];
+ f -> v[label="Corregir y Repair run",style=dashed];
+}

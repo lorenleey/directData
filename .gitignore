@@ -22,3 +22,9 @@ desktop.ini
 # Configuración personal de VS Code (solo se comparte settings.json)
 .vscode/*
 !.vscode/settings.json
+.pytest_cache/
+spark-warehouse/
+metastore_db/
+derby.log
+*.egg-info/
+jobs/directdata.json
